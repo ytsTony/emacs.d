@@ -54,6 +54,8 @@
 (require 'init-growl)
 
 (require 'init-editing-utils)
+; vim keybinding
+(require 'init-evil)
 
 (require 'init-darcs)
 (require 'init-git)
