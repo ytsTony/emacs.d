@@ -32,7 +32,7 @@
 
 (require 'init-frame-hooks)
 (require 'init-xterm)
-(require 'init-themes)
+; (require 'init-themes)
 (require 'init-osx-keys)
 (require 'init-gui-frames)
 (require 'init-maxframe)
@@ -61,25 +61,25 @@
 (require 'init-crontab)
 (require 'init-textile)
 (require 'init-markdown)
-(require 'init-csv)
-(require 'init-erlang)
+; (require 'init-csv)
+; (require 'init-erlang)
 (require 'init-javascript)
 (require 'init-php)
 (require 'init-org)
-(require 'init-nxml)
-(require 'init-css)
-(require 'init-haml)
+; (require 'init-nxml)
+; (require 'init-css)
+; (require 'init-haml)
 (require 'init-python-mode)
-(require 'init-haskell)
-(require 'init-ruby-mode)
-(require 'init-rails)
+; (require 'init-haskell)
+; (require 'init-ruby-mode)
+; (require 'init-rails)
 (require 'init-sql)
 
 (require 'init-paredit)
 (require 'init-lisp)
-(require 'init-slime)
-(require 'init-clojure)
-(require 'init-common-lisp)
+; (require 'init-slime)
+; (require 'init-clojure)
+; (require 'init-common-lisp)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
@@ -89,9 +89,9 @@
 
 ;; Extra packages which don't require any configuration
 
-(require-package 'gnuplot)
-(require-package 'lua-mode)
-(require-package 'htmlize)
+; (require-package 'gnuplot)
+; (require-package 'lua-mode)
+; (require-package 'htmlize)
 (require-package 'dsvn)
 (when *is-a-mac*
   (require-package 'osx-location))
@@ -100,9 +100,9 @@
 ;;----------------------------------------------------------------------------
 ;; Allow access from emacsclient
 ;;----------------------------------------------------------------------------
-(require 'server)
-(unless (server-running-p)
-  (server-start))
+; (require 'server)
+; (unless (server-running-p)
+;   (server-start))
 
 
 ;;----------------------------------------------------------------------------
