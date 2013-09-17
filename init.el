@@ -77,6 +77,7 @@
 ; (require 'init-ruby-mode)
 ; (require 'init-rails)
 (require 'init-sql)
+(require 'init-sml)
 
 (require 'init-lisp)
 ; (require 'init-slime)
