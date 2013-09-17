@@ -44,7 +44,7 @@
 (require 'init-flycheck)
 
 (require 'init-recentf)
-(require 'init-ido)
+; (require 'init-ido)
 (require 'init-hippie-expand)
 (require 'init-auto-complete)
 (require 'init-windows)
@@ -54,6 +54,7 @@
 (require 'init-growl)
 
 (require 'init-editing-utils)
+(require 'init-paredit)
 ; vim keybinding
 (require 'init-evil)
 
@@ -77,7 +78,6 @@
 ; (require 'init-rails)
 (require 'init-sql)
 
-(require 'init-paredit)
 (require 'init-lisp)
 ; (require 'init-slime)
 ; (require 'init-clojure)
