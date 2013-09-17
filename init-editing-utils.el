@@ -5,6 +5,14 @@
   (setq-default electric-pair-mode 1))
 
 ;;----------------------------------------------------------------------------
+;; Window Navigation
+;;----------------------------------------------------------------------------
+(global-set-key "\M-j" 'windmove-down)
+(global-set-key "\M-k" 'windmove-up)
+(global-set-key "\M-h" 'windmove-left)
+(global-set-key "\M-l" 'windmove-right)
+
+;;----------------------------------------------------------------------------
 ;; Some basic preferences
 ;;----------------------------------------------------------------------------
 (setq-default

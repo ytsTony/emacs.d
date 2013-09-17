@@ -6,6 +6,9 @@
 (when (require 'paredit)
   (require-package 'evil-paredit))
 
+; bind the C-y back to yank
+(global-set-key "\C-y" 'yank)
+
 ; customized ex cmd
 (defun kill-current-buffer()
   "kill current buffer."
@@ -20,4 +23,7 @@
                             (save-buffer)
                             (kill-current-buffer)))
 
+(evil-ex-define-cmd "o" 'ido-find-file)
+
 (provide 'init-evil)
+;;; init-evil.el ends here
