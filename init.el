@@ -92,6 +92,7 @@
 
 (require 'init-textmate)
 (require 'init-fiplr)
+(require 'init-ph)
 
 ;; Extra packages which don't require any configuration
 
