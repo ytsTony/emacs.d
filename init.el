@@ -90,9 +90,11 @@
 (require 'init-marmalade)
 (require 'init-misc)
 
-(require 'init-textmate)
+;(require 'init-textmate)
 (require 'init-fiplr)
 (require 'init-ph)
+
+(require 'init-helm)
 
 ;; Extra packages which don't require any configuration
 
