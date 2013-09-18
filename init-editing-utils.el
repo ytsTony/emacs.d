@@ -5,12 +5,17 @@
   (setq-default electric-pair-mode 1))
 
 ;;----------------------------------------------------------------------------
-;; Window Navigation
+;; Window/Buffer Navigation
 ;;----------------------------------------------------------------------------
 (global-set-key "\M-j" 'windmove-down)
 (global-set-key "\M-k" 'windmove-up)
 (global-set-key "\M-h" 'windmove-left)
 (global-set-key "\M-l" 'windmove-right)
+(require-package 'buffer-move)
+(global-set-key "\M-J" 'buf-move-down)
+(global-set-key "\M-K" 'buf-move-up)
+(global-set-key "\M-H" 'buf-move-left)
+(global-set-key "\M-L" 'buf-move-right)
 
 ;;----------------------------------------------------------------------------
 ;; Some basic preferences
